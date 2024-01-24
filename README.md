@@ -1,3 +1,3 @@
 # Welcome 👋🏾
 
-I'm currently builing alanding page i saw on X! 
+I'm currently building a landing page i saw on X! 
