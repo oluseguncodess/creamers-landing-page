@@ -1,3 +1,5 @@
+@use '../abstracts' as a;
+
 html {
     box-sizing: border-box;
     font-size: 100%;
@@ -17,5 +19,10 @@ a, a:hover, a:active {
 }
 
 body {
-    
+   font-size: 16px; 
+   font-family: a.$trial;
+   font-weight: a.$regular;
+   line-height: normal;
+   width: 90%;
+   margin: 0 auto;
 }

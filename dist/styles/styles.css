@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anaheim&family=Bruno+Ace&display=swap");
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -16,6 +17,46 @@ a, a:hover, a:active {
   margin: 0;
 }
 
+body {
+  font-size: 16px;
+  font-family: "Anaheim", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 2.2em;
+}
 .header__container {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__logo {
+  margin: 0 auto;
+  color: hsl(209, 100%, 45%);
+  font-family: "Bruno Ace", sans-serif;
+  width: 205px;
+  font-size: 1.55rem;
+  text-transform: uppercase;
+}
+.header__btn {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 110px;
+  background-color: hsl(209, 100%, 45%);
+  color: hsl(0, 0%, 100%);
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.infinity-logo {
+  display: inline-block;
+  width: 60px;
+}
+.infinity-logo > img {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

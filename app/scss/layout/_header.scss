@@ -1,6 +1,36 @@
+@use '../abstracts/index' as a;
+@use '../components' as c;
+
+
+
 .header {
+    padding-top: 2.2em;
 
     &__container {
         display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        color: a.$primary-color;
+        font-family: a.$bruno;
+        width: 205px;
+        font-size: 1.55rem;
+        text-transform: uppercase;    
+    }
+
+    &__btn {
+        @include c.btn;
+    }
+}
+
+.infinity-logo {
+    display: inline-block;
+    width: 60px;
+
+    > img {
+        width: 100%;
     }
 }
