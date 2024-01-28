@@ -10,6 +10,9 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        position: relative;
+        height: 35px;
+
     }
 
     &__logo {
@@ -22,7 +25,10 @@
     }
 
     &__btn {
-        @include c.btn;
+        @include c.btn; 
+            position: absolute;
+            top: 0;
+            right: 0;
     }
 }
 
