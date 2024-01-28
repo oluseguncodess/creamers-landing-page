@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anaheim&family=Bruno+Ace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Bruno+Ace&display=swap");
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -19,7 +19,7 @@ a, a:hover, a:active {
 
 body {
   font-size: 16px;
-  font-family: "Anaheim", sans-serif;
+  font-family: "ABeeZee", sans-serif;
   font-weight: 400;
   line-height: normal;
   width: 90%;
@@ -28,6 +28,7 @@ body {
 
 .header {
   padding-top: 2.2em;
+  margin-bottom: 60px;
 }
 .header__container {
   display: flex;
