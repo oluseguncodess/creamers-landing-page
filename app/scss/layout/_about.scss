@@ -1,4 +1,6 @@
 @use '../utilities';
+@use '../abstracts' as a;
+
 
 .about-us {
 
@@ -14,5 +16,16 @@
         gap: 10px;
         height: 600px;
         margin-bottom: 30px;
+    }
+
+    &__images {
+        flex: 1 auto;
+    }
+
+    &__paragraph {
+        max-width: 620px;
+        text-align: left;
+        font-size: 1.05rem;
+        margin-bottom: 120px;
     }
 }
