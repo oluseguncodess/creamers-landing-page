@@ -1,6 +1,5 @@
-@use '../utilities';
 @use '../abstracts' as a;
-
+@use '../utilities' as *;
 
 .about-us {
 
@@ -27,5 +26,59 @@
         text-align: left;
         font-size: 1.05rem;
         margin-bottom: 120px;
+    }
+
+    &__heading {
+        max-width: 400px;
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__spans {
+        width: 8px;
+        height: 135.5px;
+    }
+
+    &__span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: a.$grey;
+    }
+
+    &__span:first-child {
+       background-color: a.$primary-color; 
+    }
+
+    &__description {
+        max-width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        gap: 15px
+    }
+
+    &__paragraphs {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__heading-2 {
+        margin-bottom: 10px;
+    }
+
+    &__paragraph-2 {
+        font-size: 1.05rem;
+    }   text-transform: capitalize;
+
+    &__iphone {
+        max-width: 300px;
+        height: 550px;
     }
 }

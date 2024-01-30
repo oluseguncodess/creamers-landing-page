@@ -1,4 +1,9 @@
 @use '../abstracts' as a;
+
 .text-color {
     color: a.$primary-color;
+}
+
+.wh {
+    width: 95%;
 }
