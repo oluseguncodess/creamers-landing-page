@@ -7,3 +7,25 @@
 .wh {
     width: 95%;
 }
+
+.bg-grey {
+    background-color: a.$grey;
+}
+
+.iphone {
+    max-width: 270px;
+}
+
+.b-r {
+    border-radius: 10px;
+}
+
+@mixin logo($color) {
+        margin: 0 auto;
+        color: $color;
+        font-family: a.$bruno;
+        width: 205px;
+        font-size: 1.55rem;
+        text-transform: uppercase; 
+        @content;
+}
