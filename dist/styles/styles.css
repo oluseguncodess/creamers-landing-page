@@ -116,6 +116,7 @@ p {
 }
 
 .about-us {
+  margin-bottom: 150px;
   text-transform: capitalize;
 }
 .about-us__title {
@@ -184,4 +185,29 @@ p {
 .about-us__iphone {
   width: 270px;
   height: 550px;
+}
+
+.prompt__description {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.prompt__heading {
+  font-size: 2.4rem;
+  text-align: center;
+  width: 75%;
+  text-transform: capitalize;
+}
+.prompt__btn {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 110px;
+  background-color: hsl(209, 100%, 45%);
+  color: hsl(0, 0%, 100%);
+  font-style: italic;
+  font-size: 0.75rem;
 }/*# sourceMappingURL=styles.css.map */

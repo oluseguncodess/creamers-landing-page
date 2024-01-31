@@ -1,0 +1,27 @@
+@use '../abstracts' as a;
+@use '../components' as c;
+@use '../utilities' as *;
+
+.prompt {
+
+    &__description {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__heading {
+        font-size: 2.4rem;
+        text-align: center;
+        width: 75%;
+        text-transform: capitalize;
+    }
+
+    &__btn {
+        @include c.btn;
+        
+    }
+}
