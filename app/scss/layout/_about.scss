@@ -61,7 +61,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 60px;
-        gap: 15px
+        gap: 20px
     }
 
     &__paragraphs {
@@ -71,6 +71,7 @@
     }
     &__heading-2 {
         margin-bottom: 10px;
+        font-size: 1.4rem;
     }
 
     &__paragraph-2 {
@@ -78,7 +79,7 @@
     }   text-transform: capitalize;
 
     &__iphone {
-        max-width: 300px;
+        width: 270px;
         height: 550px;
     }
 }

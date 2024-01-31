@@ -167,7 +167,7 @@ p {
   display: flex;
   flex-direction: row;
   margin-top: 60px;
-  gap: 15px;
+  gap: 20px;
 }
 .about-us__paragraphs {
   display: flex;
@@ -176,11 +176,12 @@ p {
 }
 .about-us__heading-2 {
   margin-bottom: 10px;
+  font-size: 1.4rem;
 }
 .about-us__paragraph-2 {
   font-size: 1.05rem;
 }
 .about-us__iphone {
-  max-width: 300px;
+  width: 270px;
   height: 550px;
 }/*# sourceMappingURL=styles.css.map */
