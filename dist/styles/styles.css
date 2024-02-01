@@ -199,6 +199,9 @@ p {
   height: 550px;
 }
 
+.prompt {
+  margin-bottom: 120px;
+}
 .prompt__description {
   width: 95%;
   margin: 0 auto 50px;
