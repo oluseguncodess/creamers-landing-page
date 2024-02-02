@@ -20,12 +20,13 @@
     &__description {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 90px;
     }
 
     &__heading {
         font-size: 2.7rem;
         text-transform: capitalize;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     &__socials {
@@ -39,11 +40,32 @@
         display: flex;
     }
 
-&__nav-container:first-child {
-    margin-right: 50px;
-}
+    &__nav-container:first-child {
+        margin-right: 50px;
+    }
 
-   
+    &-nav__heading {
+        font-size: 1.25rem;
+        height: 52px;
+        text-align:justify;
+        padding-top: 18px;
+        margin-bottom: 10px;
+    }
+
+    &-nav__menu > li {
+        list-style: none;
+    }
+
+    &-nav__menu > li:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    &__brand {
+        margin: 0 auto;
+    }
+    &__logo {
+         text-transform: uppercase;
+    }
 
     .infinity-logo-wf {
         display: inline-block;

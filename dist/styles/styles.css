@@ -311,11 +311,12 @@ p {
 .footer__description {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 90px;
 }
 .footer__heading {
   font-size: 2.7rem;
   text-transform: capitalize;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .footer__socials > a:not(:last-child) {
   padding-right: 20px;
@@ -325,6 +326,25 @@ p {
 }
 .footer__nav-container:first-child {
   margin-right: 50px;
+}
+.footer-nav__heading {
+  font-size: 1.25rem;
+  height: 52px;
+  text-align: justify;
+  padding-top: 18px;
+  margin-bottom: 10px;
+}
+.footer-nav__menu > li {
+  list-style: none;
+}
+.footer-nav__menu > li:not(:last-child) {
+  margin-bottom: 8px;
+}
+.footer__brand {
+  margin: 0 auto;
+}
+.footer__logo {
+  text-transform: uppercase;
 }
 .footer .infinity-logo-wf {
   display: inline-block;
