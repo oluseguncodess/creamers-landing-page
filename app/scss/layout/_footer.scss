@@ -1,0 +1,58 @@
+@use '../abstracts' as a;
+
+.footer {
+    background-color: a.$secondary-color;
+    color: a.$white;
+    padding: 50px 0 20px;
+
+    & a {
+        text-decoration: none;
+        color: a.$white;
+    }
+
+    &__container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    &__description {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        font-size: 2.7rem;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+    }
+
+    &__socials {
+        
+        > a:not(:last-child) {
+            padding-right: 20px;
+        }
+    }
+
+    &-description__2nd-child {
+        display: flex;
+    }
+
+&__nav-container:first-child {
+    margin-right: 50px;
+}
+
+   
+
+    .infinity-logo-wf {
+        display: inline-block;
+        width: 100px;
+        height: 43px;
+
+        > img {
+            width: 100%;
+            height: 35px;
+        }
+    }
+}
