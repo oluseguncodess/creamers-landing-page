@@ -1,1 +1,15 @@
-$breakpoint: ("mobile": 50em, "laptop": 71.25em);
+$breakpoints-down: ( "tabs": 30.0625em, "laptop": 71.25em);
+
+$breakpoints-up: ("mobile": 50em, "tabs": 71.1875em);
+
+// media query dynnamic code
+
+@mixin media($key, $key1) {
+
+    $min: map-get($breakpoints-down, $key);
+    $max: map-get($breakpoints-up, $key1);
+    
+    @media (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}
