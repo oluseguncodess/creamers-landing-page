@@ -36,3 +36,9 @@
         width: 100%;
     }
 }
+
+@include media("zero", "mobile") {
+    .header-btn {
+        background-color: yellow;
+    }
+}

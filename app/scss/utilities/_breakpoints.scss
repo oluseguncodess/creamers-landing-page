@@ -1,6 +1,6 @@
-$breakpoints-down: ( "tabs": 30.0625em, "laptop": 71.25em);
+$breakpoints-down: ( "zero": 0, "tabs": 30.0625em, "laptop": 71.25em);
 
-$breakpoints-up: ("mobile": 50em, "tabs": 71.1875em);
+$breakpoints-up: ("zero": 0, "mobile": 50em, "tabs": 71.1875em);
 
 // media query dynnamic code
 
@@ -8,7 +8,7 @@ $breakpoints-up: ("mobile": 50em, "tabs": 71.1875em);
 
     $min: map-get($breakpoints-down, $key);
     $max: map-get($breakpoints-up, $key1);
-    
+
     @media (min-width: $min) and (max-width: $max) {
         @content;
     }
